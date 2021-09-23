@@ -1,3 +1,9 @@
-import Cache from 'src/Cache.js';
+import Cache from './src/Cache.js';
 
-exports.Console = Console;
+exports.Cache = Cache;
+exports.Color = Color;
+exports.MathX = MathX;
+exports.Random = Random;
+exports.StringX = StringX;
+exports.TimeX = TimeX;
+exports.WWW = WWW;
