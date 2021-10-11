@@ -1,6 +1,6 @@
 {
-  "name": "@nuuuwan/utils-js",
-  "version": "1.0.0",
+  "name": "@nuuuwan/utils-js-dev",
+  "version": "1.0.4",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
