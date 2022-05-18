@@ -1,11 +1,15 @@
 {
   "name": "@nuuuwan/utils-js-dev",
-  "version": "1.0.5",
-  "devDependencies": {
+  "type": "module",
+  "version": "1.0.6",
+  "license" : "MIT",
+  "dependencies": {
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0"
-  }
+  },
+  "homepage": "https://www.npmjs.com/package/@nuuuwan/utils-js-dev",
+  "keywords": ["javascript", "utilities", "react"]
 }
