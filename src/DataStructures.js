@@ -17,14 +17,14 @@ export default class DataStructures {
   }
 
   static initArray2D(nX, nY, funcDefaultValue) {
-    return DataStructuresFuture.initArray(nX, (iX) =>
-      DataStructuresFuture.initArray(nY, (iY) => funcDefaultValue(iX, iY))
+    return DataStructures.initArray(nX, (iX) =>
+      DataStructures.initArray(nY, (iY) => funcDefaultValue(iX, iY))
     );
   }
 
   static range(min, max) {
     const span = max - min;
-    return DataStructuresFuture.initArray(span, (i) => i + min);
+    return DataStructures.initArray(span, (i) => i + min);
   }
 
   static unique(arr) {
@@ -32,7 +32,7 @@ export default class DataStructures {
   }
 
   static uniqueSorted(arr) {
-    return DataStructuresFuture.unique(arr).sort();
+    return DataStructures.unique(arr).sort();
   }
 
   static buildIndex(dataList, funcGetKey) {

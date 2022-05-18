@@ -20,7 +20,7 @@ export default class MathX {
 
   static randomChoice(arr) {
     const n = arr.length;
-    const randomI = MathXFuture.randomInt(0, n);
+    const randomI = MathX.randomInt(0, n);
     return arr[randomI];
   }
 }
