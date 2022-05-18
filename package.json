@@ -1,8 +1,10 @@
 {
   "name": "@nuuuwan/utils-js-dev",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license" : "MIT",
+  "author": "nuuuwan",
+  "main": "index.js",
   "dependencies": {
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
