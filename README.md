@@ -10,6 +10,7 @@ NPM Package Page: https://www.npmjs.com/package/@nuuuwan/utils-js-dev
 ## 1.0.6, 1.0.7, 1.0.8
 * Config changes only - no new features
 * Imported DataStructures
+* Added SECONDS_IN to TimeX
 
 ## 1.0.5
 * Added new functions to DataStructures

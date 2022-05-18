@@ -1,3 +1,11 @@
+export const SECONDS_IN = {
+  MINUTE: 60,
+  HOUR: 3_600,
+  DAY: 86_400,
+  WEEK: 7 * 86_400,
+  YEAR: 365.25 * 86_400,
+};
+
 export default class TimeX {
   static getUnixTime() {
     return Math.floor(Date.now() / 1000);
