@@ -11,6 +11,7 @@ NPM Package Page: https://www.npmjs.com/package/@nuuuwan/utils-js-dev
 * Config changes only - no new features
 * Imported DataStructures
 * Added SECONDS_IN to TimeX
+* Fixed Invalid DataStructuresFuture and MathXFuture Bug
 
 ## 1.0.5
 * Added new functions to DataStructures

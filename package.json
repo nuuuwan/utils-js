@@ -1,7 +1,7 @@
 {
   "name": "@nuuuwan/utils-js-dev",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.8-b",
   "license" : "MIT",
   "author": "nuuuwan",
   "main": "index.js",
