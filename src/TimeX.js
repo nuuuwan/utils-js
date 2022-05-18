@@ -10,4 +10,9 @@ export default class TimeX {
   static getDateID() {
     return TimeX.getDate().replaceAll("-", "");
   }
+
+  static parse(timeString) {
+    const [dStr, mStr, yStr] = timeString.split("-");
+    return Date.parse([yStr, mStr, dStr].join("-")) / 1000.0;
+  }
 }
