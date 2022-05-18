@@ -8,4 +8,4 @@ import StringX from './src/StringX.js';
 import TimeX from './src/TimeX.js';
 import WWW from './src/WWW.js';
 
-module.exports = {Cache, Color, MathX, Random, StringX, TimeX, WWW}
+export {Cache, Color, MathX, Random, StringX, TimeX, WWW};
